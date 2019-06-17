@@ -16,3 +16,5 @@ class Solution:
                     count=count+1
                 i=i//10
         return count
+        #超简便方法
+        #return ''.join(map(str, range(n+1))).count(str(k))
